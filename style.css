@@ -89,6 +89,10 @@ body {
     aspect-ratio: 1;
 }
 
+.user-input * {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
 .user-input *::selection { background: transparent; }
 
 .number-btn, .unique-btn {

@@ -129,3 +129,9 @@ body {
 }
 
 #delete-btn img { scale: .8; }
+
+@media screen and (max-width: 400px) {
+    .main-body {
+        scale: .8;
+    }
+}
